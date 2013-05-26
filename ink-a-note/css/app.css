@@ -1,0 +1,26 @@
+.font-serif {
+  font-family: serif;
+}
+.font-sans-serif {
+  font-family: sans-serif;
+}
+.font-condiment {
+  font-family: 'Condiment', cursive;
+}
+.font-yesteryear {
+  font-family: 'Yesteryear', cursive;
+}
+.font-finger-paint {
+  font-family: 'Finger Paint', cursive;
+}
+.font-alef {
+  font-family: 'Alef', sans-serif;
+}
+.preview {
+  line-height: 1.5;
+  font-size: 1.2em;
+  white-space: pre-wrap;
+}
+.preview, textarea[ng-model="message"] {
+  min-height: 160px;
+}
